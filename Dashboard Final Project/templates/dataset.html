@@ -1,0 +1,2514 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="scripts.js">
+  </script>
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Dataset</title>
+
+
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Calibri';
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+ text-align: center;
+}
+span.rvts1 /* Heading */
+{
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #030307;
+ text-align: center;
+}
+span.rvts2 /* Subheading */
+{
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #060614;
+ text-align: center;
+}
+span.rvts3 /* Keywords */
+{
+ font-family: 'Calibri';
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ font-family: 'Calibri';
+ color: #008000;
+ text-decoration: underline;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+--></style>
+</head>
+
+
+<body style="background-image: url({{url_for('static',filename='dataset.jpg') }});background-size:fit;">
+  <div class="container-fluid">
+      <center><br>
+            <h2 class="display-4">
+                <font color="black"><strong>E-Commerce </strong>
+                </font><span class="badge badge-secondary">Dataset</span>
+            </h2><br><br>
+</body>
+
+<body>
+
+  <table border=1 cellpadding=4 cellspacing=0 width=2271 style='border-collapse:
+ collapse;table-layout:fixed;width:1708pt'>
+ <col width=84 style='mso-width-source:userset;mso-width-alt:2932;width:63pt'>
+ <col width=46 style='mso-width-source:userset;mso-width-alt:1605;width:35pt'>
+ <col width=53 style='mso-width-source:userset;mso-width-alt:1861;width:40pt'>
+ <col width=151 style='mso-width-source:userset;mso-width-alt:5259;width:113pt'>
+ <col width=57 style='mso-width-source:userset;mso-width-alt:2001;width:43pt'>
+ <col width=139 style='mso-width-source:userset;mso-width-alt:4864;width:105pt'>
+ <col width=170 style='mso-width-source:userset;mso-width-alt:5934;width:128pt'>
+ <col width=57 style='mso-width-source:userset;mso-width-alt:1978;width:43pt'>
+ <col width=127 style='mso-width-source:userset;mso-width-alt:4421;width:95pt'>
+ <col width=195 style='mso-width-source:userset;mso-width-alt:6795;width:146pt'>
+ <col width=134 style='mso-width-source:userset;mso-width-alt:4677;width:101pt'>
+ <col width=119 style='mso-width-source:userset;mso-width-alt:4165;width:90pt'>
+ <col width=94 style='mso-width-source:userset;mso-width-alt:3281;width:71pt'>
+ <col width=131 style='mso-width-source:userset;mso-width-alt:4561;width:98pt'>
+ <col width=69 style='mso-width-source:userset;mso-width-alt:2420;width:52pt'>
+ <col width=218 style='mso-width-source:userset;mso-width-alt:7610;width:164pt'>
+ <col width=91 style='mso-width-source:userset;mso-width-alt:3188;width:69pt'>
+ <col width=84 style='mso-width-source:userset;mso-width-alt:2932;width:63pt'>
+ <col width=131 style='mso-width-source:userset;mso-width-alt:4561;width:98pt'>
+ <col width=121 style='mso-width-source:userset;mso-width-alt:4212;width:91pt'>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl644732 width=84 style='height:14.5pt;width:63pt'>CustomerID</td>
+  <td class=xl644732 width=46 style='border-left:none;width:35pt'>Churn</td>
+  <td class=xl644732 width=53 style='border-left:none;width:40pt'>Tenure</td>
+  <td class=xl644732 width=151 style='border-left:none;width:113pt'>PreferredLoginDevice</td>
+  <td class=xl644732 width=57 style='border-left:none;width:43pt'>CityTier</td>
+  <td class=xl644732 width=139 style='border-left:none;width:105pt'>WarehouseToHome</td>
+  <td class=xl644732 width=170 style='border-left:none;width:128pt'>PreferredPaymentMode</td>
+  <td class=xl644732 width=57 style='border-left:none;width:43pt'>Gender</td>
+  <td class=xl644732 width=127 style='border-left:none;width:95pt'>HourSpendOnApp</td>
+  <td class=xl644732 width=195 style='border-left:none;width:146pt'>NumberOfDeviceRegistered</td>
+  <td class=xl644732 width=134 style='border-left:none;width:101pt'>PreferedOrderCat</td>
+  <td class=xl644732 width=119 style='border-left:none;width:90pt'>SatisfactionScore</td>
+  <td class=xl644732 width=94 style='border-left:none;width:71pt'>MaritalStatus</td>
+  <td class=xl644732 width=131 style='border-left:none;width:98pt'>NumberOfAddress</td>
+  <td class=xl644732 width=69 style='border-left:none;width:52pt'>Complain</td>
+  <td class=xl644732 width=218 style='border-left:none;width:164pt'>OrderAmountHikeFromlastYear</td>
+  <td class=xl644732 width=91 style='border-left:none;width:69pt'>CouponUsed</td>
+  <td class=xl644732 width=84 style='border-left:none;width:63pt'>OrderCount</td>
+  <td class=xl644732 width=131 style='border-left:none;width:98pt'>DaySinceLastOrder</td>
+  <td class=xl644732 width=121 style='border-left:none;width:91pt'>CashbackAmount</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50001</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>160</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50002</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>UPI</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>121</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50003</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>30</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>120</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50004</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>23</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>134</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50005</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>130</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50006</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>139</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50007</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Cash on Delivery</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>121</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50008</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50009</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>127</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50010</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>31</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50011</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Cash on Delivery</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Others</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>295</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50012</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>154</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50013</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>COD</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>134</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50014</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>17</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>134</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50015</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>196</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50016</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>UPI</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>121</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50017</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>129</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50018</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>157</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50019</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>24</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>161</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50020</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>20</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>150</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50021</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>162</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50022</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>20</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>29</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>203</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50023</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>28</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>117</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50024</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>26</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>146</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50025</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>207</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50026</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>142</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50027</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>173</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50028</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>20</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50029</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50030</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>190</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50031</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>COD</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>143</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50032</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>17</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>161</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50033</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>30</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>20</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>133</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50034</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>209</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50035</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>122</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50036</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>24</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50037</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>120</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50038</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>27</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>127</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50039</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>30</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>30</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>194</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50040</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>126</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50041</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>23</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>17</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Others</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>299</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50042</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>125</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50043</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>194</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50044</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>187</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50045</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>20</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>130</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50046</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>23</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>COD</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>131</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50047</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>COD</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>21</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50048</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>121</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50049</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>131</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50050</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>150</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50051</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>29</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>143</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50052</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>125</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50053</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>111</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50054</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>25</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>205</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50055</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50056</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>23</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>139</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50057</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>33</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50058</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>26</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>131</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50059</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>23</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>137</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50060</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>26</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>145</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50061</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>20</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>128</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50062</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Others</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>290</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50063</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>28</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>20</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Others</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>287</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50064</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>17</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>195</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50065</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>24</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Grocery</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>237</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50066</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>25</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Others</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>300</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50067</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50068</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>29</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>159</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50069</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>121</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50070</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Grocery</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>23</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>268</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50071</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>27</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>136</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50072</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>144</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50073</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>27</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>153</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50074</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>166</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50075</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>35</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>COD</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>163</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50076</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>COD</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>143</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50077</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>24</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>168</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50078</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>17</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>138</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50079</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>25</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>127</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50080</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>35</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>167</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50081</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>33</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>176</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50082</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>123</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50083</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>24</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>122</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50084</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>149</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50085</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>19</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>194</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50086</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>204</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50087</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>22</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>185</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50088</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>26</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>200</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50089</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>24</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>225</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50090</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>COD</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>127</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50091</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>236</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50092</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>32</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>15</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>167</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50093</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Cash on Delivery</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>121</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50094</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>18</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>8</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>189</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50095</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>27</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>E wallet</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>159</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50096</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Single</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>16</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>159</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50097</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>CC</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Female</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>7</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>21</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>126</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50098</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>10</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>17</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>UPI</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>14</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>222</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50099</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>11</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Mobile Phone</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>9</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Debit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Fashion</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Married</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>13</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>206</td>
+ </tr>
+ <tr height=19 style='height:14.5pt'>
+  <td height=19 class=xl634732 align=right style='height:14.5pt;border-top:
+  none'>50100</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Computer</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>6</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Credit Card</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Male</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>2</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>5</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Laptop &amp;
+  Accessory</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>3</td>
+  <td class=xl634732 style='border-top:none;border-left:none'>Divorced</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>0</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>12</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>1</td>
+  <td class=xl634732 align=right style='border-top:none;border-left:none'>4</td>
+  <td class=xl654732 align=right style='border-top:none;border-left:none'>143</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=84 style='width:63pt'></td>
+  <td width=46 style='width:35pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=151 style='width:113pt'></td>
+  <td width=57 style='width:43pt'></td>
+  <td width=139 style='width:105pt'></td>
+  <td width=170 style='width:128pt'></td>
+  <td width=57 style='width:43pt'></td>
+  <td width=127 style='width:95pt'></td>
+  <td width=195 style='width:146pt'></td>
+  <td width=134 style='width:101pt'></td>
+  <td width=119 style='width:90pt'></td>
+  <td width=94 style='width:71pt'></td>
+  <td width=131 style='width:98pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=218 style='width:164pt'></td>
+  <td width=91 style='width:69pt'></td>
+  <td width=84 style='width:63pt'></td>
+  <td width=131 style='width:98pt'></td>
+  <td width=121 style='width:91pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+<br>
+
+<!-- Home -->
+    <center>
+        <form action = "http://127.0.0.1:5000">
+        <button style="height:45px;width:150px;font-size: 20px;text-align: center;line-height: 20px; background-color: #2b5336;color: cornsilk;  type="button" class="btn btn-info"">Home</button>
+        </form><br><br>
+    </center> 
+
+<!--JavaScript at end of body for optimized loading-->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+</html>
